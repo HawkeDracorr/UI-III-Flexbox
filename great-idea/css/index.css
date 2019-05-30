@@ -136,7 +136,7 @@ table {
 
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
   font-family: "Titillium Web", sans-serif;
 }
 
@@ -307,7 +307,7 @@ address div span {
 
 footer {
   display: flex;
-  margin-bottom: 60px;
+  margin:40px auto 60px auto;
   justify-content: center;
   /* border: red solid 2px; */
 }
@@ -316,6 +316,23 @@ footer p {
   margin-top: 54px;
   font-size: 14px;
 }
-.test1 {
-  /* border: red solid 2px; */
+
+/* Code specifically for the services page below here */
+
+#service-section-two {
+	border-bottom: transparent solid 2px;
+	/* border: green solid 2px; */
+}
+
+.service-section {
+	outline: green solid 5px;
+	display: flex;
+	/* flex-direction:column; */
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-section div {
+	outline: blue solid 2px;
+	width:45%;
 }
